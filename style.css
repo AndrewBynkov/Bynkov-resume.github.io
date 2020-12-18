@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+    border: 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 612px;
+    padding: 33px 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 347px;
+    border-right: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__style {
+    width: 130px;
+    border-radius: 100px;
+}
+
+.right {
+    padding-left: 21px;
+}
+
+.label {
+    width: 129px;
+    padding: 8px 10px;
+    border: 1px solid #1C1C1C;
+    box-sizing: border-box;
+}
+
+.label__text {
+    font-style: bold;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+}
+
+.fullname__text-indent {
+    margin-top: 17px;
+}
+
+.fullname {
+    padding-bottom: 20px;
+}
+
+.fullname__text {
+    width: 214px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1C1C1C;
+}
+
+.info {
+    margin-top: 25px;
+}
+
+.info__description {
+    list-style-position: inside;
+}
+
+.info__description-indent {
+    margin-top: 10px;
+}
+
+.info__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+}
+
+.devider {
+    position: absolute;
+    width: 347px;
+    height: 1px;
+    left: 37px;
+    top: 171px;
+    background: #1C1C1C;
+}
+
+.workExp {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #1C1C1C;
+}
+
+.work__indent {
+    padding-top: 30px;
+}
+
+.work__indent-description__text {
+    padding-top: 30px;
+    list-style-position: inside;
+}
+
+.work__text-titles {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+    margin-bottom: 10px;
+}
+
+.description__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+    padding-bottom: 10px;
+}
+
+.description__text-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+    list-style-position: inside;
+}
